@@ -1,0 +1,21 @@
+    @media (min-width: 768px) {
+
+    }
+
+.menu_pages_list li {
+    display: 100%;
+    padding: 0 10%;
+    line-height: 1.6;
+    font-size: 1.2em;
+    padding: 0 40px;
+    text-align: left;
+    color: #3D4852;
+}
+
+.menu_pages_list iframe {
+    display: 100%;
+    /*padding: 0 10%;*/
+    padding: 0 40px;
+    
+}
+    
