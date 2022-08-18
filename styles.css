@@ -53,7 +53,7 @@ nav ul li a:hover, nav ul li a:focus {
     display: none;
 }
 #checkbox:checked ~ nav ul {
-    max-height: 200px;
+    max-height: 300px;
     padding: 15px 0;
     transition: all 0.5s;
 }
@@ -71,17 +71,17 @@ nav ul li a:hover, nav ul li a:focus {
         max-height: 70px;
         padding: 15px 0;
         text-align: right;
-    }
+            }
     nav ul li {
         display: inline-flex;
-        padding-left: 20px;
+               padding-left: 20px;
     }
 }
 
 h1{
     font-size: 2.2em;
     text-align: center;
-    padding: 60px 40px 30px;
+    padding: 60px 40px ;
     color: #3D4852;
     line-height: 1.2;
 }
@@ -92,3 +92,4 @@ p{
     text-align: center;
     color: #3D4852;
 }
+
