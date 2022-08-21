@@ -2,14 +2,26 @@
 
     }
 
+    h1 {
+    font-size: 2.2em;
+    text-align: center;
+    padding: 2.5em 2em;
+    color: #EC1616;
+    line-height: 1.2;
+}
+
 .menu_pages_list li {
     display: 100%;
     padding: 0 10%;
-    line-height: 1.6;
-    font-size: 1.2em;
-    padding: 0 10px;
+    line-height: 2;
+    font-size: 1.3em;
+    padding: 0 1em;
     text-align: left;
+    font-weight: bold;
     color: #3D4852;
+
+    /*background-color: #22292F;*/
+    
 }
 
 .menu_pages_list iframe {

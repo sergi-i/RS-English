@@ -9,6 +9,14 @@ header {
     background-color: #22292F;
     padding: 10px 0;
 }
+
+.menu {
+   position: fixed; 
+    top:0px;
+    left:0;
+    width: 100%;
+}
+
 .menu-wrap {
     display: flex;
     justify-content: space-between;
@@ -70,7 +78,7 @@ nav ul li a:hover, nav ul li a:focus {
     nav ul {
         max-height: 70px;
         padding: 15px 0;
-        text-align: right;
+        /*text-align: right;*/
             }
     nav ul li {
         display: inline-flex;
@@ -78,18 +86,53 @@ nav ul li a:hover, nav ul li a:focus {
     }
 }
 
-h1{
+h1 {
     font-size: 2.2em;
     text-align: center;
-    padding: 60px 40px ;
+    padding: 2.5em 2em;
+    color: #EC1616;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 10px 20px ;
+    color: #3D4852;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 20px;
     color: #3D4852;
     line-height: 1.2;
 }
-p{
+
+p {
     line-height: 1.6;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0 40px;
-    text-align: center;
+    text-align: left;
     color: #3D4852;
 }
 
+
+   p {
+    font-family: Arial, Helvetica, sans-serif; /* Гарнитура шрифта основного текста */
+    font-size: 100%; /* Размер шрифта */
+    padding: 0 30px;
+
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+   }
+   P:first-letter {
+    font-family: Arial, Helvetica, sans-serif; /* Гарнитура шрифта первой буквы */
+    font-size: 120%; /* Размер шрифта первого символа */
+    color: #EC1616; /* Красный цвет текста */
+   }
+
+   .beta {
+    text-align: center;
+   }
