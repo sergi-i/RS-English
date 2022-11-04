@@ -42,10 +42,12 @@ nav ul {
     max-height: 0px;
     overflow: hidden;
     transition: all 0.5s;
+    position: relative;
 }
 nav ul li {
     padding: 0 15px;
-}
+    display:inline-block;
+    }
 nav ul li a {
     display: inline-block;
     padding: 12px;
@@ -65,6 +67,31 @@ nav ul li a:hover, nav ul li a:focus {
     padding: 15px 0;
     transition: all 0.5s;
 }
+
+
+            nav ul ul {
+                display: none;
+                /*position: absolute;*/
+                top: 100%;
+            }
+            
+            /* отображаем выпадающий список при наведении */
+            nav ul li:hover > ul {
+                display:inherit;
+                
+            }
+            
+            /* первый уровень выпадающего списка */
+            nav ul ul li {
+                min-width:170px;
+                float:none;
+                display:list-item;
+                position: relative;
+            }
+
+li > a:after { content:  ' +'; }
+        li > a:only-child:after { content: ''; }
+
 
 @media (min-width: 768px) { 
     .menu-icon {
@@ -89,7 +116,6 @@ nav ul li a:hover, nav ul li a:focus {
 h1 {
     font-size: 2.2em;
     text-align: center;
-    padding: 2.5em 2em;
     color: #EC1616;
     line-height: 1.2;
 }
@@ -136,3 +162,5 @@ p {
    .beta {
     text-align: center;
    }
+
+  

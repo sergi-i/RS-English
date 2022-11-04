@@ -1,0 +1,43 @@
+ul.breadcrumb-5 { 
+    margin: 20px;
+    padding: 0;
+}
+ul.breadcrumb-5 li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px 0 -10px;
+    padding: 0 20px;
+    position: relative;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;      
+}
+ul.breadcrumb-5 li:before,
+ul.breadcrumb-5 li:after {
+    border-right: 3px solid #BFE2FF;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transform: skewX(45deg);   
+}
+ul.breadcrumb-5 li:after {
+    bottom: 0;
+    top: auto;
+    transform: skewX(-45deg);
+}
+ul.breadcrumb-5 li:last-of-type:before, 
+ul.breadcrumb-5 li:last-of-type:after { 
+    display: none; 
+}
+ul.breadcrumb-5 li a { 
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+ul.breadcrumb-5 li a:hover { 
+    color: #337AB7;
+}
